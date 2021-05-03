@@ -1,0 +1,98 @@
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <title>Case Study</title>
+    <div id="font"><head>Case Study</head><div>
+    <body>
+        <p id="wolfram"></p>
+        <p id="mobilenet"></p>
+        <p id="mini_conclusion"></p>
+        <p id="conclusion"></p>
+        <div id="body">
+        <ol>
+            <div class="text_images_and_result">
+                <li>
+                    <b>Test Image - </b>
+                    <br> 
+                    <img src="shoe.jpeg" class="img_responsive">   
+                </li>
+                <h5>Output on <b>Azure project</b> - 
+                <span>shoe</span>
+                <h5>Output on <b>Mobilenet model</b> - 
+                    <span>Buckle</span>
+                </h5>
+                <div class="mini_result">
+                    <h4>Result - </h4>
+                    <h4>Azure is more accurate for this test image</h4>
+                </li>
+                    <hr>
+                    <li>
+                    <b>Test Image - </b>
+                    <br> 
+                    <img src="keys.jpg" class="img_responsive">    
+                <h5>Output on <b>Azure project</b> - 
+                <span>gun</span>
+                <h5>Output on <b>Mobilenet model</b> - 
+                    <span>safety pin</span>
+                </h5>
+                <div class="mini_result">
+                    <h4>Result - </h4>
+                    <h4>Both the models are not more accurate for this test image</h4>
+                </div>
+            </div>
+        </li>
+            <hr>
+            <li>
+            <b>Test Image - </b>
+            <br>
+            <img src="bed.jpg" class="img_responsive">    
+        <h5>Output on <b>Azure project</b> - 
+        <span>objects: potted plant tags: furniture</span>
+        <h5>Output on <b>Mobilenet model</b> - 
+            <span>Comforter</span>
+        </h5>
+        <div class="mini_result">
+            <h4>Result - </h4>
+            <h4>Azure is more accurate for this test image</h4>
+            <hr>
+            <b>Test Image - </b>
+        </li>
+        <li>
+            <br>
+            <img src="book.jpg" class="img_responsive"> 
+        <h5>Output on <b>Azure project</b> - 
+        <span>mammal</span>
+        <h5>Output on <b>Mobilenet model</b> - 
+            <span>Book</span>
+        </h5>
+        <div class="mini_result">
+            <h4>Result - </h4>
+            <h4>MobileNet is more accurate for this test image</h4>
+        </li>
+        <li>
+            <hr>
+            <b>Test Image - </b>
+            <br>
+            <img id="chair" src= "chair.jpg" class="img_responsive">    
+        </li>
+        <h5>Output on <b>Azure project</b> - 
+        <span>chair</span>
+        </h5>
+        <h5>Output on <b>Mobilenet model</b> - 
+            <span>Balloon</span>
+        </h5>
+        <div class="mini_result">
+            <h4>Result - </h4>
+            <h4>Azure is more accurate for this test image</h4>
+        </div>
+        </li>
+        <hr>
+        </ol>
+        <div>Winner - </div>
+        <h4 id="adjust">Azure is more accurate for this case study because I used five test images. Analysis: MobileNet has predicted 1 image correct Azure has predicted 4 images</h4>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+#font{
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+}
+#body{
+    font-family: 'Original Surfer', cursive;
+}
+img{
+    width: 40%;
+    box-shadow: 50px 30px 50px black;
+    height: 40%;
+}
+html{
+    background-color: rgb(235, 120, 187);
+}
+#adjust{
+background-color: palevioletred;
+box-shadow: 20px 10px 10px black;
+font-size: x-large;
+border-radius: 50px;
+border: 2px solid palevioletred;
+}
